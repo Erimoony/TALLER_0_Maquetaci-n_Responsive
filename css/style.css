@@ -357,3 +357,39 @@ nav a {
     position: relative;
     z-index: 2; 
 }
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section,
+.center-section,
+.right-section {
+    text-align: center;
+}
+
+.left-section p,
+.center-section p,
+.right-section p {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.privacy p {
+    margin-bottom: 5px;
+}
